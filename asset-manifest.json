@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.js": "/poverty-and-inequality-teamproject/static/js/main.72718639.chunk.js",
+    "main.js.map": "/poverty-and-inequality-teamproject/static/js/main.72718639.chunk.js.map",
+    "runtime-main.js": "/poverty-and-inequality-teamproject/static/js/runtime-main.41ce86de.js",
+    "runtime-main.js.map": "/poverty-and-inequality-teamproject/static/js/runtime-main.41ce86de.js.map",
+    "static/css/2.68f9c38c.chunk.css": "/poverty-and-inequality-teamproject/static/css/2.68f9c38c.chunk.css",
+    "static/js/2.7d24e2eb.chunk.js": "/poverty-and-inequality-teamproject/static/js/2.7d24e2eb.chunk.js",
+    "static/js/2.7d24e2eb.chunk.js.map": "/poverty-and-inequality-teamproject/static/js/2.7d24e2eb.chunk.js.map",
+    "static/js/3.04d822fa.chunk.js": "/poverty-and-inequality-teamproject/static/js/3.04d822fa.chunk.js",
+    "static/js/3.04d822fa.chunk.js.map": "/poverty-and-inequality-teamproject/static/js/3.04d822fa.chunk.js.map",
+    "index.html": "/poverty-and-inequality-teamproject/index.html",
+    "static/css/2.68f9c38c.chunk.css.map": "/poverty-and-inequality-teamproject/static/css/2.68f9c38c.chunk.css.map",
+    "static/js/2.7d24e2eb.chunk.js.LICENSE.txt": "/poverty-and-inequality-teamproject/static/js/2.7d24e2eb.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/poverty-and-inequality-teamproject/static/media/outline-icons.ddae9b1b.woff",
+    "static/media/headpic1.999ab4e8.png": "/poverty-and-inequality-teamproject/static/media/headpic1.999ab4e8.png",
+    "static/media/headpic2.4d69ee49.png": "/poverty-and-inequality-teamproject/static/media/headpic2.4d69ee49.png",
+    "static/media/headpic3.65f0f9c0.jpg": "/poverty-and-inequality-teamproject/static/media/headpic3.65f0f9c0.jpg",
+    "static/media/pic1.ef791d86.jpg": "/poverty-and-inequality-teamproject/static/media/pic1.ef791d86.jpg",
+    "static/media/pic2.ed609486.jpg": "/poverty-and-inequality-teamproject/static/media/pic2.ed609486.jpg",
+    "static/media/pic3.9f553c9e.jpg": "/poverty-and-inequality-teamproject/static/media/pic3.9f553c9e.jpg",
+    "static/media/pic4.8ec0ce5c.jpg": "/poverty-and-inequality-teamproject/static/media/pic4.8ec0ce5c.jpg",
+    "static/media/pic5.5ea634a1.jpg": "/poverty-and-inequality-teamproject/static/media/pic5.5ea634a1.jpg",
+    "static/media/pic6.35e27e62.jpg": "/poverty-and-inequality-teamproject/static/media/pic6.35e27e62.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41ce86de.js",
+    "static/css/2.68f9c38c.chunk.css",
+    "static/js/2.7d24e2eb.chunk.js",
+    "static/js/main.72718639.chunk.js"
+  ]
+}
