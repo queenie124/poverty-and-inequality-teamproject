@@ -3,6 +3,12 @@ import { Input, Menu, Segment,Icon ,Divider, Header, Image} from 'semantic-ui-re
 const style1={
     color:'white'
  }
+ const style2 = {
+  fontSize: 50
+}
+const style3 = {
+  fontSize: 20
+}
 
 
 
@@ -18,11 +24,11 @@ class Cause extends React.Component{
             
             
             <div>
-                 <Header as='h2'>
-    <Icon style={style1}name='question circle outline' />
-    <Header.Content style={style1}>
+                 <Header style={style2}as='h2'>
+    <Icon name='question circle outline' />
+    <Header.Content style={style2}>
       What cause poverty and inequality?
-      <Header.Subheader style={style1}>3 causes are shown below</Header.Subheader>
+      <Header.Subheader style={style3}>3 causes are shown below</Header.Subheader>
     </Header.Content>
   </Header>
             <Menu pointing>
@@ -44,7 +50,7 @@ class Cause extends React.Component{
              
             </Menu>
     
-            <Segment>
+            <Segment style={style3}>
               <p>Firstly, the education is the key. Most of the poor have nearly no education. so that may make them be unskilled and lazy. Secondly, healthcare is also an important indicator as people who are weak have a lower possibility of finding a job. Thirdly, famliy condition affects it because people living in a poor family usually cannot enjoy many opportunities like education, job seeking, and so on.</p>
             </Segment>
           </div>

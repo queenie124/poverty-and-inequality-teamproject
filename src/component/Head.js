@@ -2,13 +2,20 @@ import React from 'react'
 import {  Header, Icon, Image  } from 'semantic-ui-react'
 
 const headstyle={
-    color:'white',
+ color:'white'
 
 }
+
+const Bgstyle = {
+  //minHeight: '400px',
+  borderRadius: '0'
+}
+
+
 class Head extends React.Component{
     render(){
         return(
-            <div   >
+            <div style={Bgstyle}>
             <Header style={headstyle}  as='h1' icon textAlign='center'>
             <Icon style={headstyle}  name='heartbeat' circular />
             <Header.Content style={headstyle} >POVERTY AND INEQUALITY</Header.Content>

@@ -1,42 +1,74 @@
-import React from'react'
+import React from 'react'
 import Head from './component/Head'
-import { Segment } from 'semantic-ui-react'
-import Gallery from'./component/Gallery'
-import Global from'./component/Global'
-import Local from'./component/Local'
-import Cause from'./component/Cause'
-import Solutions from'./component/Solutions'
-const Bgstyle = {
-  minHeight: '800px',
-  backgroundColor: '#000000de',
-  borderRadius: '0'
-}
-class App extends React.Component{
-  render(){
-    return(
-      <div className='App'>
-            <Segment inverted style={Bgstyle}>
-        <Head></Head>
-        <br></br>
-        <br></br>
-        <Gallery></Gallery>
-        <br></br>
-        <Global></Global>
-        <br></br>
-        <br></br>
-        <Local></Local>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <Cause></Cause>
-        <br></br>
-        <br></br>
-        <br></br>
-        <Solutions></Solutions>
-   </Segment>
+import { Segment, Container } from 'semantic-ui-react'
+import Gallery from './component/Gallery'
+import Global from './component/Global'
+import Local from './component/Local'
+import Cause from './component/Cause'
+import Solutions from './component/Solutions'
 
-      </div>
+const styles = {
+  gallery: {
+    backgroundColor: 'rgba(0, 0, 0, 0.87)',
+    paddingTop: 80,
+    paddingBottom: 100,
+  },
+  section: {
+    backgroundColor: '#ffffff',
+    paddingTop: 80,
+   
+  },
+  head:{
+    backgroundColor: 'rgba(0, 0, 0, 0.87)',
+    paddingTop: 40,
+  }
+}
+
+class App extends React.Component {
+  render() {
+    return (
+      <div className='App'>
+
+        <Segment style={{
+          border: 0,
+          padding: 0
+        }}>
+
+          <div id="section-head" class="section" style={styles.head}>
+            <Head></Head>
+          </div>
+
+          <div id="section-gallery" class="section" style={styles.gallery}>
+            <Container >
+              <Gallery />
+            </Container>
+          </div>
+
+          <div id='section-global' class='section' style={styles.section}>
+            <Container>
+              <Global />
+            </Container>
+          </div>
+
+          <div id='section-local' class='section' style={styles.section}>
+            <Container>
+              <Local />
+            </Container>
+          </div>
+
+          <div id='section-cause' class='section' style={styles.section}>
+            <Container>
+              <Cause></Cause>
+            </Container>
+          </div>
+          <div id='section-solutions' class='section' style={styles.section}>
+            <Container>
+              <Solutions></Solutions>
+            </Container>
+          </div>
+        </Segment>
+
+      </div >
     )
   }
 }
