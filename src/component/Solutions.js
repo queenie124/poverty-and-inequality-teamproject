@@ -89,7 +89,7 @@ your encouraging words for the poors around the world.
     size='medium'
     href='https://www.humana.org'
    
-    target='_blank'
+    target='_blankgit push -u origin main'
   />
   <p> HUMANA PEOPLE TO PEOPLE</p>
       </Grid.Column>
