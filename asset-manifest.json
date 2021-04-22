@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/poverty-and-inequality-teamproject/static/js/main.72718639.chunk.js",
-    "main.js.map": "/poverty-and-inequality-teamproject/static/js/main.72718639.chunk.js.map",
+    "main.js": "/poverty-and-inequality-teamproject/static/js/main.b55f0082.chunk.js",
+    "main.js.map": "/poverty-and-inequality-teamproject/static/js/main.b55f0082.chunk.js.map",
     "runtime-main.js": "/poverty-and-inequality-teamproject/static/js/runtime-main.41ce86de.js",
     "runtime-main.js.map": "/poverty-and-inequality-teamproject/static/js/runtime-main.41ce86de.js.map",
     "static/css/2.68f9c38c.chunk.css": "/poverty-and-inequality-teamproject/static/css/2.68f9c38c.chunk.css",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.41ce86de.js",
     "static/css/2.68f9c38c.chunk.css",
     "static/js/2.7d24e2eb.chunk.js",
-    "static/js/main.72718639.chunk.js"
+    "static/js/main.b55f0082.chunk.js"
   ]
 }
